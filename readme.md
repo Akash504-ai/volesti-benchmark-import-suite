@@ -34,9 +34,10 @@ Introduce a modular import layer:
 All pipelines end in: HPolytope(d, A, b)
 
 ## Roadmap (a simple approcing way from my side)
-1.First clearly define a clean and consistent internal representation for polytopes so everything follows the same structure.
-2.Then build validation tools to check if the imported data is correct, well-formed and actually represents a feasible polytope.
-3.Next create a converter that can take LP benchmark datasets and transform them into the required (A, b) format.
-4.Build another converter for metabolic models, so stoichiometric data can also be transformed properly.
-5.Finally add clear examples and small benchmarks so others can easily reproduce results and understand how the pipeline works.
+- 1.First clearly define a clean and consistent internal representation for polytopes so everything follows the same structure.
+- 2.Then build validation tools to check if the imported data is correct, well-formed and actually represents a feasible polytope.
+- 3.Next create a converter that can take LP benchmark datasets and transform them into the required (A, b) format.
+- 4.Build another converter for metabolic models, so stoichiometric data can also be transformed properly.
+- 5.Finally add clear examples and small benchmarks so others can easily reproduce results and understand how the pipeline works.
+
 
