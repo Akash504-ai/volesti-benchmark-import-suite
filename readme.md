@@ -10,13 +10,13 @@ so they can be used directly inside volesti without manual adjustments.
 Currently, volesti supports:
 
 - Programmatic construction: HPolytope(d, A, b)
-- cdd-style `.ine` files via read_pointset()
+- cdd-style .ine files via read_pointset()
 
-Internally, polytopes are represented as: `Ax ≤ b`
+Internally, polytopes are represented as: Ax ≤ b
 
 ## Identified Limitations
 
-- There has no structural validation in `.ine` constructor.
+- There has no structural validation in .ine constructor.
 - Implicit dimension assumption.
 - There has not any direct support for LP bounds.
 - No metadata handling
@@ -39,3 +39,4 @@ All pipelines end in: HPolytope(d, A, b)
 3.Next create a converter that can take LP benchmark datasets and transform them into the required (A, b) format.
 4.Build another converter for metabolic models, so stoichiometric data can also be transformed properly.
 5.Finally add clear examples and small benchmarks so others can easily reproduce results and understand how the pipeline works.
+
